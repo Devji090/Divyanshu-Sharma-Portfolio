@@ -23,7 +23,7 @@ module.exports = ()=>
 
    app.use(methodOverride());
 
-   app.set('views' , './app/views')
+   app.set('views' , './App/views')
 
    app.set('view engine' , 'ejs');
    app.use('/' ,require('../App/routes/index.server.route'))
