@@ -1,0 +1,27 @@
+<%- include('partials/header.ejs') %>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="mailto:divyanshuji0909@gmail.com" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit" value="submit">Submit</button>
+  </form>
+</section>
+<br>
+<!-- Social Media Handles -->
+<section id="social-media">
+  <h2>Connect with Me</h2>
+  <ul>
+      <li><a href="https://www.linkedin.com/in/divyanshu-sharma-58495a24b/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://twitter.com/DivyanshuS92578" target="_blank">Twitter</a></li>
+      <li><a href="https://github.com/Devji090" target="_blank">GitHub</a></li>
+  </ul>
+</section>
+<%- include('partials/footer.ejs') %>  
